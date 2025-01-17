@@ -4,7 +4,7 @@ $product = $_POST['product'];
 $price = $_POST['price']; // Menggunakan harga dalam Rupiah
 
 // Data yang dikirim ke Atlantic Payment Gateway
-$api_key = 'YOUR_API_KEY'; // Ganti dengan API Key Anda
+$api_key = 'oKTBXMgq95LA708F7N1XX9xcwg0HezeQbmfYRcJAmNkUkfQb68SZxJp7qm9V1v4fTlfN44UkzfDgNOniIt6P3OB2S3bO3eNhbmjq'; // Ganti dengan API Key Anda
 $api_url = 'https://api.atlantic-payment.com/transaction';
 
 // Data pembayaran yang akan dikirim ke API
